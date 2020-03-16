@@ -24,7 +24,7 @@ app.use(express.static("public"));
 // });
 
 //for heroku mLab
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<budget>:<P@55word>@ds139327.mlab.com:39327/heroku_25x3smb2", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<budget>:<P@55word>@ds245927.mlab.com:45927/heroku_2xb9r3tm", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useMongoClient: true
