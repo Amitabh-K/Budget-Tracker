@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   font-family: Arial;
-  background-color: #F7FAFC;
+  background-color: rgb(133, 176, 206);
 }
 
 button,
@@ -32,13 +32,22 @@ input:focus {
 }
 
 button {
-  background: #8A33FE;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   color: #FFFFFF;
   padding: 10px;
-  box-shadow: inset 0 -3px 0 0 #4801A5;
+}
+
+#add-btn{
+  background: #d9534f;
+  box-shadow: inset 0 -3px 0 0 #92100b;
+}
+
+
+#sub-btn{
+  background: #5cb85c;
+  box-shadow: inset 0 -3px 0 0 #128112;
 }
 
 button:active {
