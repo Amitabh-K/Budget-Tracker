@@ -47,7 +47,7 @@ function populateChart() {
         {
           label: "Total Over Time",
           fill: true,
-          backgroundColor: "#6666ff",
+          backgroundColor: "#cccc",
           data
         }
       ]
